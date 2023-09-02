@@ -1,0 +1,15 @@
+CREATE PROC SP_Mostrar
+AS
+SELECT * FROM Personas
+GO
+
+--INSERTAR DATOS
+
+CREATE PROC SP_Insertar
+@ID INT,
+@Nombre NVARCHAR(30),
+@Apellido NVARCHAR(30),
+@Sexo NVARCHAR(12)
+AS
+INSERT INTO Personas VALUES(@ID, @Nombre, @Apellido, @Sexo)
+GO
