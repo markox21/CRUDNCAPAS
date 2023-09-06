@@ -171,7 +171,7 @@ namespace Presentation
                 getData();
             }
 
-        }
+        }  
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
@@ -202,6 +202,11 @@ namespace Presentation
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtID_TextChanged(object sender, EventArgs e)
         {
 
         }
